@@ -50,7 +50,7 @@ When you're done...
 
 Write another test class _EmptyRingBufferTest_ containing tests for an empty RingBuffer. Put these tests in a separate test class because they use a different test fixture (setup). 
 
-- Name the test class at.fhhagenberg.sqe.EmptyRingBufferTest`.
+- Name the test class `at.fhhagenberg.sqe.EmptyRingBufferTest`.
 - Provide at least 1 test case. This test should provoke an exception. Make sure the expected exception is actually thrown and check the exception type, message, etc. 
 
 ### Submission
