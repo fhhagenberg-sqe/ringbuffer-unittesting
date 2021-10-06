@@ -6,7 +6,7 @@ The implementation of a _RingBuffer_ (from the draft version of Introduction to 
 
 ## RingBufferTest _(2 points)_
 
-The task is to write 4 unit tests for the class RingBuffer. The goal is not to write many unit tests but to write useful unit tests that correctly use the [JUnit framework](https://junit.org/junit5/docs/current/user-guide/#writing-tests).
+The task is to write 3 unit tests for the class RingBuffer. The goal is not to write many unit tests but to write useful unit tests that correctly use the [JUnit framework](https://junit.org/junit5/docs/current/user-guide/#writing-tests).
 
 ### Instructions
 
@@ -31,7 +31,7 @@ Tests run: 3, Failures: 0, Errors: 0, Skipped: 0
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
 [INFO] Total time:  6.837 s
-[INFO] Finished at: 2020-10-02T09:17:44+02:00
+[INFO] Finished at: 2021-10-02T09:17:44+02:00
 [INFO] ------------------------------------------------------------------------
 ```
 
@@ -48,10 +48,9 @@ When you're done...
 
 ### Instructions
 
-Write another test class _EmptyRingBufferTest_ containing tests for an empty RingBuffer. Put these tests in a separate test class because they use a different test fixture (setup). 
+Write another test for an empty RingBuffer. 
 
-- Name the test class `at.fhhagenberg.sqe.EmptyRingBufferTest`.
-- Provide at least 1 test case. This test should provoke an exception. Make sure the expected exception is actually thrown and check the exception type, message, etc. 
+- The test case should provoke an exception. Make sure the expected exception is actually thrown and check the exception type, message, etc. 
 
 ### Submission
 
